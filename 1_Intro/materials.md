@@ -1,7 +1,7 @@
 # Распределенные системы
 
 ## Что такое Распределенные системы?
-![[pictures/distributed_systems.png]]
+![Distributed_systems](pictures/distributed_systems.png)
 
 Для наших целей достаточно дать такое достаточно широкое определение:
 
