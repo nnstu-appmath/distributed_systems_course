@@ -27,6 +27,7 @@
 
 ![[pictures/processes.png]]
 
+
 ---
 ## Зачем нужны распределенные системы?
 - Увеличение производительности:
@@ -43,7 +44,7 @@
 - Уменьшение задержки при обслуживании географических распределенных пользователей
 	- Размещение данных как можно ближе к месту использования (Data Locality)
 
-![[pictures/peer_to_peer.png]]
+![[peer_to_peer.png]]
 --- 
 ## Примеры распределенных систем
 
@@ -94,7 +95,7 @@
 Доступ к памяти, идёт быстрее, чем к жестким дискам. 
 Запрос в рамках одного data центра более производителен, чем доступ между дата центрами.
 
-![[pictures/table_latency_throughtput.png]]
+![[table_latency_throughtput.png]]
 
 [Numbers Every Programmer Should Know By Year (colin-scott.github.io)](https://colin-scott.github.io/personal_website/research/interactive_latency.html)
 
@@ -199,7 +200,7 @@
 - его производительность достаточно высока для текущего сценария использования, при предполагаемой нагрузке и объеме данных; 
 - система предотвращает любой несанкционированный доступ и неправильную эксплуатацию
 
-![[pictures/time_between_failures.png]]
+![[time_between_failures.png]]
 
 • Характеризуется с помощью средней продолжительности работы между отказами (mean time between failures, MTBF)
 
@@ -223,7 +224,7 @@
 • Время восстановления после отказов (mean time to repair, MTTR) 
 • Availability = (1 - MTTR/MTBF) * 100%
 
-![[pictures/availability.png]]
+![[availability.png]]
 
 [Achieving “five nines” in the cloud for justice and public safety | AWS Public Sector Blog (amazon.com)](https://aws.amazon.com/ru/blogs/publicsector/achieving-five-nines-cloud-justice-public-safety/)
 
@@ -235,7 +236,7 @@
 • Подразумевает 100% доступность, обходится дороже высокой доступности 
 • Имеет определенные пределы (например, отказ менее половины узлов)
 
-![[pictures/fault_tolearance.png]]
+![[fault_tolearance.png]]
 Источник [https://habr.com/ru/company/vk/blog/683192/](https://habr.com/ru/company/vk/blog/683192/)
 
 ---
